@@ -1,0 +1,150 @@
+*{
+    /* outline: auto; */
+}
+body{
+    background-color: #2f1893;
+    font-family: 'DM Sans', 'Roboto';
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 213px;
+    padding-right: 213px;
+    height: 40px;
+    margin-top: 65px;
+    width: 972px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    padding-left: 213px;
+    padding-right: 213px;
+    margin-top: 100px;
+    width: 972px;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap:50px
+}
+
+.head{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: white;
+    
+}
+
+#learn{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    background-color: hotpink;
+}
+
+.subtext{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color:white;
+}
+.text{
+    flex:0 0 427px;
+    height: 496px;
+}
+.signup_form{
+    flex:0 0 470px;
+    height: 600px;
+    background-color: white;
+}
+
+.white{
+    height: 32px;
+}
+
+.menu{
+    display: flex;
+    gap: 21px;
+}
+
+.menu,
+button{
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    background-color: #2f1893;
+    
+}
+
+#purchase{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    background-color: hotpink;
+}
+
+#logo{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.25px;
+    text-align: center;
+    letter-spacing: -0.29px;
+}
+
+
+/* ________________________ */
+
+.signup_form, 
+.heading{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -.4px;
+    text-align: center;
+    color: #1e0e62;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+  }
+  
+  .forms {
+    box-sizing: border-box;
+    border: none;
+    width: 330px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    background: hsl(0 0% 93%);
+    border-radius: 50px;
+    padding: 15px;
+    &[type="submit"] {
+      background: hotpink;
+      color: white;
+      box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
+    }
+  }
+  /* ------------------------------------ */
+  .terms-and-conditions {
+    display: flex;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    justify-content: center;
+  }
+  
