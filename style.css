@@ -1,6 +1,8 @@
-*{
-    /* outline: auto; */
+@font-face {
+    font-family: 'DM Sans';
+    src: url(fonts/DMSans-VariableFont_opsz\,wght.ttf);
 }
+
 body{
     width: 1400px;
     height: 890px;
@@ -16,6 +18,7 @@ body{
     margin-top: 65px;
     width: 972px;
 }
+
 .bottom{
     display: flex;
     flex-direction: row;
@@ -66,11 +69,13 @@ body{
     color:white;
     margin-top: 24px;
 }
+
 .text{
     flex:0 0 427px;
     height: 496px;
     margin-top: 114px;
 }
+
 .signup_form{
     flex:0 0 470px;
     height: 600px;
@@ -121,9 +126,6 @@ button{
     letter-spacing: -0.29px;
 }
 
-
-/* ________________________ */
-
 .signup_form
 .heading{
     font-weight: 700;
@@ -142,7 +144,6 @@ form {
     margin-top: 14px;
 }
 
-
 .forms {
     box-sizing: border-box;
     border: hsl(0 0% 93%) solid 2px;
@@ -158,7 +159,6 @@ form {
     align-self: center;
     margin-top: 20px;
 }
-
 
 .login{
     box-sizing: border-box;
@@ -177,6 +177,7 @@ form {
     box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
     margin-top: 30px;
 }
+
 .loginvia{
     box-sizing: border-box;
     width: 330px;
@@ -195,6 +196,7 @@ form {
     margin-top: 18px;
     margin-bottom: 30px;
 }
+
 .check{
     width: 330px;
     align-self: center;
@@ -213,6 +215,7 @@ form {
     line-height: 26px;
     font-size: 16px;
 }
+
 .signin_form,
 .signin,
 button{
@@ -222,7 +225,6 @@ button{
     color: #25DAC5;
     background-color: rgba(255,255,255, 0);
 }
-
 
 .divider {
     width: 330px;
@@ -234,10 +236,10 @@ button{
 .line {
     flex: 1;
     align-self: center;
-    border-bottom: 2px solid #EBEAED; /* Adjust color and width as needed */
-    margin: 0 10px; /* Adjust spacing as needed */
+    border-bottom: 2px solid #EBEAED; 
+    margin: 0 10px;
 }
 
 .or{
-    font-weight: bold; /* Adjust text styling as needed */
+    font-weight: bold; 
 }
