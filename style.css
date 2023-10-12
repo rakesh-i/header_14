@@ -167,8 +167,8 @@ form {
 
 .check{   
     display: flex;
+    width: 330px;
     align-self: center;
-    align-items: center;
     cursor: pointer;
     margin-top: 30px;
 }
