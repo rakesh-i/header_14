@@ -8,7 +8,11 @@ body{
     height: 890px;
     background-color: #2f1893;
     font-family: 'DM Sans', 'Roboto';
+    margin: 0%;
 }
+
+/* Header  */
+
 .header_menu{
     display: flex;
     justify-content: space-between;
@@ -18,6 +22,50 @@ body{
     margin-top: 65px;
     width: 972px;
 }
+
+.white{
+    height: 32px;
+}
+
+.menu{
+    display: flex;
+    gap: 21px;
+}
+
+.menu
+button{
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    background-color: #2f1893;
+    
+}
+
+#purchase{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    background-color: #E93A7D;
+    border-radius: 100px;
+    padding: 7px 21px;
+}
+
+#logo{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.25px;
+    text-align: center;
+    letter-spacing: -0.29px;
+}
+
+/* Content */
+
+/* Left-side */
 
 .bottom{
     display: flex;
@@ -32,6 +80,8 @@ body{
     display: flex;
     flex-direction: column;
     flex:0 0 424px;
+    height: 496px;
+    margin-top: 114px;
 }
 
 .head{
@@ -41,6 +91,16 @@ body{
     letter-spacing: -1px;
     color: white;
     
+}
+
+.subtext{
+    width: 363px;
+    height: 160px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color:white;
+    margin-top: 24px;
 }
 
 #learn{
@@ -60,21 +120,7 @@ body{
     
 }
 
-.subtext{
-    width: 363px;
-    height: 160px;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 32px;
-    color:white;
-    margin-top: 24px;
-}
-
-.text{
-    flex:0 0 427px;
-    height: 496px;
-    margin-top: 114px;
-}
+/* Right-side */
 
 .signup_form{
     flex:0 0 470px;
@@ -83,47 +129,6 @@ body{
     border:#ebeaed 2px;
     border-radius: 10px; 
     margin-top: 82px;  
-}
-
-.white{
-    height: 32px;
-}
-
-.menu{
-    display: flex;
-    gap: 21px;
-}
-
-.menu,
-button{
-    border: none;
-    background: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    color: white;
-    background-color: #2f1893;
-    
-}
-
-#purchase{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    color: white;
-    background-color: #E93A7D;
-    border-radius: 100px;
-    /* height: 40px; */
-    padding: 7px 21px;
-}
-
-#logo{
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.25px;
-    text-align: center;
-    letter-spacing: -0.29px;
 }
 
 .signup_form
@@ -160,6 +165,39 @@ form {
     margin-top: 20px;
 }
 
+.check{   
+    display: flex;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#terms{
+    margin-left: 13px;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #EBEAED;
+    border-radius: 6px;
+}
+
+input[type="checkbox"]:checked::after{
+    content: "✓";
+    color: #1E0E62;
+    font-size: 20px;
+    position: relative;
+    top: -10%;
+    left: 10%;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #25DAC5;
+}
+
 .login{
     box-sizing: border-box;
     width: 330px;
@@ -174,56 +212,7 @@ form {
     text-align: center;
     border: none;
     color: white;
-    box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
     margin-top: 30px;
-}
-
-.loginvia{
-    box-sizing: border-box;
-    width: 330px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    background: #25DAC5;
-    border-radius: 100px;
-    height: 50px;
-    padding-left: 24px;
-    align-self: center;
-    text-align: center;
-    border: none;
-    color: white;
-    box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
-    margin-top: 18px;
-    margin-bottom: 30px;
-}
-
-.check{
-    width: 330px;
-    align-self: center;
-    color: #15143966;
-    font-weight: 400;
-    line-height: 26px;
-    font-size: 16px;
-    text-align: left;
-    margin-top: 30px;
-}
-
-.signup_form,.signin{
-    text-align: center;
-    color: #15143966;
-    font-weight: 400;
-    line-height: 26px;
-    font-size: 16px;
-}
-
-.signin_form,
-.signin,
-button{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #25DAC5;
-    background-color: rgba(255,255,255, 0);
 }
 
 .divider {
@@ -243,3 +232,40 @@ button{
 .or{
     font-weight: bold; 
 }
+
+.loginvia{
+    box-sizing: border-box;
+    width: 330px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    background: #1DA1F2;
+    border-radius: 100px;
+    height: 50px;
+    padding-left: 24px;
+    align-self: center;
+    text-align: center;
+    border: none;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+
+.signup_form,.signin{
+    text-align: center;
+    color: #15143966;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+#sign{
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #25DAC5;
+    background-color: rgba(255,255,255, 0);
+}
+
